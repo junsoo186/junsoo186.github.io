@@ -15,12 +15,13 @@ h1 {
     text-align: center;
 }
 
-#login-screen {
+#login-screen, #nazarik-screen {
     text-align: center;
-    border: 3px solid #ffcc00;
     padding: 30px;
     background-color: #2b2b2b;
     border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
 }
 
 input {
@@ -45,15 +46,13 @@ button:hover {
     background-color: #ff9900;
 }
 
-#blog-content {
-    text-align: center;
-    padding: 50px;
-    background-color: #2b2b2b;
-    border-radius: 10px;
-    width: 70%;
-    margin-top: 20px;
-}
-
 #error-message {
     margin-top: 10px;
+    color: red;
+}
+
+#nazarik-screen img {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
 }
